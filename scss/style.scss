@@ -33,6 +33,21 @@ header{
     
 }
 
-.bg_about{
-    background: url("../assets/image/bg_header.jpg") no-repeat center;
+.aboutme {
+    position: relative;
 }
+
+.aboutme::before {
+    content: "";
+    background: url("../assets/image/aboutbg.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.6; /* ajusta este valor para cambiar la opacidad */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
