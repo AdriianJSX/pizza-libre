@@ -40,4 +40,22 @@ header {
   z-index: -1;
 }
 
+.contact {
+  position: relative;
+}
+
+.contact::before {
+  content: "";
+  background: url("../assets/image/contact.webp") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 /*# sourceMappingURL=style.css.map */
