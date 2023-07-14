@@ -2,85 +2,160 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <nav class="navbar navbar-expand-sm navbar-light bg-danger navbar-fixed-top">
+    <header class="header">
+        <nav class="navbar navbar-expand-sm navbar-light bg-danger  fixed-top shadow">
+            <div class="container">
+
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="lni lni-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Home <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">blog</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <div class="text-warning text_offer py-2"> hot offerts +54 999 999 999</div>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        </nav>
         <div class="container">
-     
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">blog</a>
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="header_text     text-center">
+                        El sabor Del Mal
+                        <h2 class="text-white    text-center text_order"> podes ordenar online</h2>
+                        <button type="button" class="btn btn-outline-danger"
+                            style="margin-bottom:25%; margin-left: 45%;">ordernar online</button>
+
+
+
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <!-- Start horarios y  localizacion -->
+            <div style="background-color: black; padding-top: 30px; padding-bottom: 40px;">
+                <div class="parallax-container">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-2 text-center mb-3">
+                                <div class="text-white fs-1"> <i class="lni lni-phone"></i> <span class="fs-2">+54 999
+                                        999 999</span></div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+                                <div class="text-white fs-1"> <i class="lni lni-map-marker"></i></i><span
+                                        class="fs-2">Argentina Buenos Aires</span></div>
+
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 text-center mb-3 open24">
+                                <div class="text-white fs-3"><i class="lni lni-alarm-clock fs-1"></i><span
+                                        class="fs-2">abierto las 24 horas</span></div>
+
+                            </div>
+
                         </div>
-                    </li>
-                    <div class="text-warning fs-5 py-2"> hot offerts +54 999 999 999</div>
-                  
-                </ul>
-              
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- fin horarios -->
+        <div class="">
+            <div class="container p-5 ">
+                <div class="row">
+                    <div class="col-sm-6 p-2">
+                        <img src="./assets/image/pizza-1.jpg" alt="" class="img-fluid rounded"
+                            style="width: 500px; height: 500px;">
+                    </div>
+                    <div class="col-sm-6 p-4">
+                        <p style="font-style: italic; color: brown;  font-size: 80px;">
+                            Lorem ipsum dolor sit
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><i class="lni lni-pizza" style="font-size: 15vh;"></i>
+                                        </h4>
+                                        <p class="card-text">las mejores pizzas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><i class="lni lni-delivery" style="font-size: 15vh;"></i>
+                                        </h4>
+                                        <p class=" text-center">delivery gratis</p>
+                                    </div>
+                                </div>                            </div>
+                            <div class="col-sm-4">
+                                <div class="">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><i class="lni lni-offer "  style="font-size: 15vh;"></i>
+                                        </h4>
+                                        <p class="card-text text-center">ofertas todos los viernes</p>
+                                    </div>
+                                </div>                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="header_text     text-center">
-                    El sabor Del Mal 
-                    <h2 class="text-white    text-center text_order"> podes ordenar online</h2>
-                        <button type="button" class="btn btn-outline-danger" style="margin-bottom:25%; margin-left: 45%;">ordernar online</button>
-                        
    
-                    
-                </h1>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
 
-            </div>
-        </div>
-    </div>
-
-  </header>
-  <main>
-
-    
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

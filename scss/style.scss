@@ -9,8 +9,7 @@ body{
 }
 header{
     background: url("../assets/image/bg_header.jpg") no-repeat center;
-    height: 75%;
-    background-size: cover;
+    background-size: center;
 
 }
 
@@ -20,6 +19,9 @@ header{
     
 }
 .header_text{
+    padding-top: 200px;
+    margin-right: 100px;
+    padding-left: 50px;
     font-size: 10vh;
     
     color: white;
@@ -27,6 +29,7 @@ header{
 }
 
 .text_order{
- font-size: 19px;
+ font-size: 30px;
     
 }
+
