@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+}
+header{
+    background: url("../assets/image/bg_header.jpg") no-repeat center;
+    height: 75%;
+    background-size: cover;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    
+}
+.header_text{
+    font-size: 10vh;
+    
+    color: white;
+    letter-spacing: 2px;
+}
+
+.text_order{
+ font-size: 19px;
+    
+}
