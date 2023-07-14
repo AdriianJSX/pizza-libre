@@ -18,7 +18,8 @@ header{
     font-size: 20px;
     
 }
-.header_text{
+
+@mixin header_text{
     padding-top: 200px;
     margin-right: 100px;
     padding-left: 50px;
