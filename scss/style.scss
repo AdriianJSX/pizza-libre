@@ -7,6 +7,12 @@
 body{
     height: 100vh;
 }
+
+@font-face {
+    font-family: 'Certia-Black'; /* Nombre de tu fuente */
+    src: url('Certia-Black/tufuente.otf') format('opentype'); /* Cambia la extensión y el formato según tus archivos */
+   }
+
 header{
     background: url("../assets/image/bg_header.jpg") no-repeat center;
     height: 500px;
@@ -19,8 +25,8 @@ header{
     font-size: 20px;
     
 }
-
-
+ 
+  
 .text_order{
  font-size: 30px;
     
@@ -58,5 +64,20 @@ header{
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: 1;   
 }
+
+
+@keyframes zoomIn {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+    }
+  }
+  
+  .image_pizza {
+    animation: zoomIn 2s ease-in-out;
+    /* Puedes ajustar la duración y la función de temporización según tus necesidades */
+  }  
