@@ -7,11 +7,12 @@ body {
   height: 100vh;
  }
 
-header {
+ .header{
   background: url("../assets/image/bg_header.jpg") no-repeat center;
   height: 500px;
-  background-size: center;
+  background-size: cover;
 }
+
 
 .navbar-light .navbar-nav .nav-link {
   color: white;

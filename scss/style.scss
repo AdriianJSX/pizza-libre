@@ -10,13 +10,13 @@ body{
     background-color: black !important;
 }
  
- 
 header{
-    background: url("../assets/image/bg_header.jpg") no-repeat center;
-    height: 500px;
-    background-size: center;
-
+  background: url("../assets/image/bg_header.jpg") no-repeat center;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
 }
+
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
