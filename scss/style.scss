@@ -10,7 +10,15 @@ body{
     background-color: black !important;
 }
  
-header{
+@font-face {
+  font-family:Angels ;
+  src: url() format('opentype');
+}
+.lomas{
+  font-family:Angels ;
+ }
+
+.navbar_bg{
   background: url("../assets/image/bg_header.jpg") no-repeat center;
   height: 500px;
   background-size: cover;
