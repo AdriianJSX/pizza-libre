@@ -136,3 +136,56 @@ body::-webkit-scrollbar-thumb {
   border-radius: 7px;
   
   }
+
+
+.zoomCard{
+  transition: transform 0.5s ease-in-out;
+ 
+}
+
+.zoomCard:hover{
+ transform: scale(1.1); 
+  }
+
+
+  .circleShop {
+    height: 2rem;
+    width: 2rem;
+     padding:115, 10px;
+     float: right;
+    border: solid 2px white;
+    font-size: 0.96rem;
+   font-family: xxx;
+   font-size: 15px;
+ }
+ 
+
+
+.bgCircleShop{
+   background-color: rgb(250, 237, 55);
+   color: black;
+  }
+ 
+
+ .card-neon {
+  width: 60px;
+  height: 60px;
+  background-color: #313030d7;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-neon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em; /* Ajusta el tamaño del ícono según sea necesario */
+  text-shadow: 0 0 10px rgb(255, 238, 0), 0 0 20px rgb(251, 255, 0), 0 0 30px rgba(0, 255, 0, 1);
+  transition: text-shadow 0.5s;
+}
+
+.card-neon:hover i {
+  text-shadow: 0 0 10px rgba(0, 255, 0, 1), 0 0 20px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 1), 0 0 40px rgba(0, 255, 0, 1);
+}
