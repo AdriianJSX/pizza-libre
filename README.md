@@ -24,8 +24,7 @@ Explora nuestro menú, elige tus sabores favoritos y sumérgete en la experienci
 | Elegancia y funcionalidad para una experiencia intuitiva y atractiva. | 
 | Estética distintiva y creativa para sumergir a los clientes en una experiencia visual única. | | ✔ |
 | Interactividad que potencia la navegación fluida y la presentación dinámica del menú. |
-
-
+|Deployd : https://adriianfdezok.github.io/pizza-libre/|
 
  
   
